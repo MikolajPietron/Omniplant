@@ -33,7 +33,7 @@ scene.add(dirLight3);
 // Load the GLB model
 const loader = new THREE.GLTFLoader();
 loader.load(
-    'modelThree.glb',
+    'modelDecimated.glb',
     function (gltf) {
         const model = gltf.scene;
 
